@@ -1,1 +1,6 @@
-# CapStone2022
+# ePortfolio
+
+# CS499 Computer Science Capstone 
+ # July 2022
+ 
+ 
