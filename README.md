@@ -9,6 +9,6 @@ Some of the artifacts will demonstrate my stronger skill in one category but ill
 ---
 # Self-Refelections
 
-[Journal: Self-Instruction](CS499/CS499-_Journal Entry.pdf "Journal: Self-Introduction")
+[Journal: Self-Instruction]
 
 This paper is just an informative self-refelection that is related to CS499 Couputer Science cources and my experiances with this course. This is all about sharing only my personla opinions and viewpoints on the material that was given to me. 
