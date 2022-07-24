@@ -16,6 +16,34 @@ Some of the artifacts will demonstrate my stronger skill in one category but ill
 
 # Self-Refelections
 
-[Journal: Self-Instruction](Journal Entry.pdf "Journal: Self-Introduction")
+[Journal Entry.pdf](https://github.com/spollard386/CapStone2022/files/9176638/Journal.Entry.pdf)
+
 
 This paper is just an informative self-refelection that is related to CS499 Couputer Science cources and my experiances with this course. This is all about sharing only my personla opinions and viewpoints on the material that was given to me. 
+
+[Journal Career Choice.pdf](https://github.com/spollard386/CapStone2022/files/9176650/Journal.Career.Choice.pdf)
+
+
+This paper refelects on my career choices and plans going forward into the future. evern through the bumps and road blocks I have remained constant in my path in Computer Science. 
+
+[Journal: Capstone Reflection]
+
+The paper that I have written is of my CS499 Computer Science Capstone assignments. this entry is about how I have reached my five - course outcomes by enhancing as well as including the artifacts into my ePortfolio as well as the accomplishments of being able to create a professional ePortfolio to showcase my kills, abilities, and knowledge within the  Computer Science field.
+
+### ePortfolio Selection and Software Design Document 
+[ePortfolio Section and Refinement Plan.pdf](https://github.com/spollard386/CapStone2022/files/9176633/ePortfolio.Section.and.Refinement.Plan.pdf)
+
+
+
+This paper was the inital plan on describing how I me the ePortfolio requirements, however the plan that I submitted was not in its final, but a solid starting point with clear ideas for review.
+
+* Software engineering and Design
+* Algorithms and Data Structure
+* Databases
+
+### Code Review 
+
+[Software Design and Engineering.pdf](https://github.com/spollard386/CapStone2022/files/9176679/Software.Design.and.Engineering.pdf)
+
+ [Algorithms and Data Structure.pdf](https://github.com/spollard386/CapStone2022/files/9176672/Algorithms.and.Data.Structure.pdf)
+
