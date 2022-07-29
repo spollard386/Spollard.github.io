@@ -6,7 +6,7 @@
  
  
  
-### My name is Samantha Pollard I am a current student attaining my Bachelor of Science from Southern New Hampshire University currently studying Computer Science. The purpose of this ePortfolio is to showcase my abilities and talents, this is just a visual tool to demonstrate my skills and value to a potential employer. All the content of this portfolio is a starting point to my abilities and skills as well as growth in key areas surrounding software design / engineering, data structures, databases, and algorithms.
+ My name is Samantha Pollard I am a current student attaining my Bachelor of Science from Southern New Hampshire University currently studying Computer Science. The purpose of this ePortfolio is to showcase my abilities and talents, this is just a visual tool to demonstrate my skills and value to a potential employer. All the content of this portfolio is a starting point to my abilities and skills as well as growth in key areas surrounding software design / engineering, data structures, databases, and algorithms.
 Some of the artifacts will demonstrate my stronger skill in one category but illustrate other skills across key areas. The artifacts that I have chosen, have been enhanced and presented in the course requirements
 
 ---
