@@ -19,7 +19,7 @@ Some of the artifacts will demonstrate my stronger skill in one category but ill
 
 ---
 
-# Self-Refelections
+# Who I am
 
 [Journal Entry.pdf](https://github.com/spollard386/CapStone2022/files/9176638/Journal.Entry.pdf)
 
