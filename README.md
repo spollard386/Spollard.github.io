@@ -19,7 +19,45 @@ Some of the artifacts will demonstrate my stronger skill in one category but ill
 
 ---
 
-# Who I am
+# Professional Assesment
+
+  I started out joining the US.Navy back in 2001. Where I was apart of the Supply Department, as a Petty Officer 3rd Class, in charge of ships store and inventory to eventually becoming in charge of the Barbershop for officers and Enlisted personnel. I completed my enlisment and was honorably discharged after two tours. Although I was fond on the Navy i just wasn't sure if I wanted to do that the rest of my life. So upon discharge I attended school for a while and recieved my Associates in Network Systems Administration, I still wasn't sure on what I wanted to do with that.
+
+  in 2015 I started working for Northrup Grumman as an Electronic Technician 3 where I get to perform routine technical functions releated to the support of development engineering and ground support equipment activities such as design, test, checkout, fabrication, modification, and assembly of electronics and Electro-mechanical systems, experimental design circuitry, prototype models or specialized test equipment. 
+  Applications may include analog, digital and/or video type circuits and logic systems. Guidance is readily available from superiors. Works from schematics, diagrams, written and verbal descriptions, layouts or defined plans to perform routine testing, checkout, troubleshooting, prototype building, environmental testing, and simple developmental engineering tasks. Performs routine operational tests and fault isolation on development systems and equipment to ensure conformance with design specifications.Diagnoses and isolates malfunctions down to component level. 
+  
+  Conducts defined engineering tests and collects data as assigned. Utilizes routine development or diagnostic equipment including oscilloscope, VOM, DVM, signal generators and similar test apparatus. Normally assigned in area such as development, engineering, test equipment design, or the like. Excludes those assigned to production test activities. Entry Level. Excludes trainees with no academic preparation or experience.Although I love what I do the plan was always to continue to make vertical moves within the company. so getting my degree in Computer Science was a must for me. Although this degree hasn't been easy on me, I have had many of road blocks that has tired to stop me from continuing this process.
+regardless of the outcome, at least I tried my best and I never gave up that was always the most important part for me, to show my children that regardless of what's happened in life that I continued to keep going. With that being said, I have presented three artifacts that demonstrate my profeciancy in diffrent languages, databases and data structors.
+
+# Code Review
+
+
+
+
+
+# Software Design and Engineering 
+
+
+
+
+
+
+# Algorithms and Data Structure
+
+
+
+
+
+
+
+
+
+
+# Data Base
+
+
+
+
 
 [Journal Entry.pdf](https://github.com/spollard386/CapStone2022/files/9176638/Journal.Entry.pdf)
 
