@@ -37,6 +37,8 @@ regardless of the outcome, at least I tried my best and I never gave up that was
 
 # Software Design and Engineering 
 
+the Artifact that I chose for this portion is from a previous class CS:330 Computational Graphics and Visualization. 
+
 
 
 
