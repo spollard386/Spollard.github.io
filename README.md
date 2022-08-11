@@ -48,7 +48,7 @@ the Artifact that I chose for this portion is from a previous class CS 260: Data
 
 
 # Algorithms and Data Structure
-![mongodb_programmers_by_siliconvalleyinfo_dayaoxx](https://user-images.githubusercontent.com/108440724/184148101-fcadd689-f0b7-4839-8188-a1d89d502fb2.png)
+![1_9QRFQdpO2f59GsN2KsE9XA](https://user-images.githubusercontent.com/108440724/184226137-2ce89947-4301-4592-84c0-b10364a114c4.png)
 
 
 
