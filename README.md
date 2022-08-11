@@ -36,9 +36,11 @@ regardless of the outcome, at least I tried my best and I never gave up that was
 
 
 # Software Design and Engineering 
+![c___wallpaper_by_alsahm123_de993ov](https://user-images.githubusercontent.com/108440724/184146478-6d61fb0b-aac6-4d18-8c38-7832d30cfd8c.png)
+
 
 the Artifact that I chose for this portion is from a previous class CS 260: Data Structure and Algorithms, a class that I took back in June of 2020. I have posted the original lab which was creating written in C++ The focus of these problems will be working with information extracted from a municipal government data feed containing bids submitted for auction of property.The data set is provided in two comma-separated files: 1.	eBid_Monthly_Sales.csv (larger set of 17,937 bids) and 
-2.eBid_Monthly_Sales_Dec_2016.csv (smaller set of 179 bids)![c___wallpaper_by_alsahm123_de993ov](https://user-images.githubusercontent.com/108440724/184146478-6d61fb0b-aac6-4d18-8c38-7832d30cfd8c.png)
+2.eBid_Monthly_Sales_Dec_2016.csv (smaller set of 179 bids)
 
 
 
@@ -49,7 +51,7 @@ the Artifact that I chose for this portion is from a previous class CS 260: Data
 
 # Algorithms and Data Structure
 ![1_9QRFQdpO2f59GsN2KsE9XA](https://user-images.githubusercontent.com/108440724/184226137-2ce89947-4301-4592-84c0-b10364a114c4.png)
-
+For this portion, I wanted to incorporate a previous class of mine CS250 Softeware Development Lifecycle, where I'm explaing with exapmle the Life Cycle of any software development from the planning phase icluding the 3 main and major points of any planning, which would be the Who, What, and Why. The purpose of this structure is to implement the idea of a program into creating stories and making sure the steps from begining to the finished product which is completed and understood for the customer.  
 
 
 
@@ -62,6 +64,7 @@ the Artifact that I chose for this portion is from a previous class CS 260: Data
 
 # Data Base
 ![image-blog-mysql-php](https://user-images.githubusercontent.com/108440724/184149315-03715e17-451b-4c66-892e-81abc5c8864c.jpg)
+
 
 
 
