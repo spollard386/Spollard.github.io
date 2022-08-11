@@ -37,7 +37,9 @@ regardless of the outcome, at least I tried my best and I never gave up that was
 
 # Software Design and Engineering 
 
-the Artifact that I chose for this portion is from a previous class CS:330 Computational Graphics and Visualization. 
+the Artifact that I chose for this portion is from a previous class CS 260: Data Structure and Algorithms, a class that I took back in June of 2020. I have posted the original lab which was creating written in C++ The focus of these problems will be working with information extracted from a municipal government data feed containing bids submitted for auction of property.The data set is provided in two comma-separated files: 1.	eBid_Monthly_Sales.csv (larger set of 17,937 bids) and 
+2.eBid_Monthly_Sales_Dec_2016.csv (smaller set of 179 bids)
+
 
 
 
