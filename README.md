@@ -50,7 +50,9 @@ the Artifact that I chose for this portion is from a previous class CS 260: Data
 
 
 # Algorithms and Data Structure
-![1_9QRFQdpO2f59GsN2KsE9XA](https://user-images.githubusercontent.com/108440724/184226137-2ce89947-4301-4592-84c0-b10364a114c4.png)
+[![1_9QRFQdpO2f59GsN2KsE9XA](https://user-images.githubusercontent.com/108440724/184226137-2ce89947-4301-4592-84c0-b10364a114c4.png)] (https://github.com/spollard386/CapStone2022/blob/main/Scrum%20Agile.pptx)
+
+[Click here or on Picture](https://github.com/spollard386/CapStone2022/blob/main/Scrum%20Agile.pptx)
 
 For this portion, I wanted to incorporate a previous class of mine CS250 Softeware Development Lifecycle, where I'm explaing with exapmle the Life Cycle of any software development from the planning phase icluding the 3 main and major points of any planning, which would be the Who, What, and Why. The purpose of this structure is to implement the idea of a program into creating stories and making sure the steps from begining to the finished product which is completed and understood for the customer.  
 
