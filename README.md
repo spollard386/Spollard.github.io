@@ -104,7 +104,7 @@ This paper was the inital plan on describing how I me the ePortfolio requirement
 
 ### Code Review 
 [![20190606_blog_code_review_limbo-_how_low_should_you_go_website](https://user-images.githubusercontent.com/108440724/184567597-3a907040-afed-4b06-9daa-86b69b80a939.png)]
-[Click on the Picture](https://github.com/spollard386/CapStone2022/blob/main/Software%20Design%20and%20Engineering.pdf)
+[Click on the Picture]
 
 
 
