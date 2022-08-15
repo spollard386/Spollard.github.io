@@ -99,7 +99,7 @@ This paper was the inital plan on describing how I me the ePortfolio requirement
 * Databases
 
 # Code Review 
-[![code-review-best-practices](https://user-images.githubusercontent.com/108440724/184568415-de471089-347d-45dc-9156-1296c7470065.png)]
+![code-review-best-practices](https://user-images.githubusercontent.com/108440724/184568415-de471089-347d-45dc-9156-1296c7470065.png)
 
 [Software Design and Engineering.pdf](https://github.com/spollard386/CapStone2022/files/9176679/Software.Design.and.Engineering.pdf)
 
