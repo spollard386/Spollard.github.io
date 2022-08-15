@@ -66,7 +66,9 @@ For this portion, I wanted to incorporate a previous class of mine CS250 Softewa
 
 
 # Data Base
-![image-blog-mysql-php](https://user-images.githubusercontent.com/108440724/184149315-03715e17-451b-4c66-892e-81abc5c8864c.jpg)
+[![image-blog-mysql-php](https://user-images.githubusercontent.com/108440724/184149315-03715e17-451b-4c66-892e-81abc5c8864c.jpg)](https://github.com/spollard386/CapStone2022/blob/main/Cluster.docx)
+[Click on Picture](https://github.com/spollard386/CapStone2022/blob/main/DAT%20220%20Denim.docx)
+
 
 
 
