@@ -69,6 +69,8 @@ For this portion, I wanted to incorporate a previous class of mine CS250 Softewa
 [![image-blog-mysql-php](https://user-images.githubusercontent.com/108440724/184149315-03715e17-451b-4c66-892e-81abc5c8864c.jpg)](https://github.com/spollard386/CapStone2022/blob/main/Cluster.docx)
 [Click on Picture](https://github.com/spollard386/CapStone2022/blob/main/DAT%20220%20Denim.docx)
 
+ Here are some examples of class work that I completed, for class DAT 220: Fundamentals of Data Mining.
+ the premise of this module was to capture the online data of everyday retail traffic inorder to break down what merchandise is being sold and at what rate, as well as the amount of purchases within a certain amount of time. The second module, is showcased Bubba Gump Resturant, the purpose of this was to use the data that is provided to track the amount of purchases at the resturant locations or via the internet. the purpose was to gage the type of traffic to the resturant vs. the internet. What was found was that regarless if the resturant was local, sales weren't as high as they were via ordering the internet.  
 
 
 
