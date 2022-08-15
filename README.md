@@ -29,10 +29,6 @@ Some of the artifacts will demonstrate my stronger skill in one category but ill
   Conducts defined engineering tests and collects data as assigned. Utilizes routine development or diagnostic equipment including oscilloscope, VOM, DVM, signal generators and similar test apparatus. Normally assigned in area such as development, engineering, test equipment design, or the like. Excludes those assigned to production test activities. Entry Level. Excludes trainees with no academic preparation or experience.Although I love what I do the plan was always to continue to make vertical moves within the company. so getting my degree in Computer Science was a must for me. Although this degree hasn't been easy on me, I have had many of road blocks that has tired to stop me from continuing this process.
 regardless of the outcome, at least I tried my best and I never gave up that was always the most important part for me, to show my children that regardless of what's happened in life that I continued to keep going. With that being said, I have presented three artifacts that demonstrate my profeciancy in diffrent languages, databases and data structors.
 
-# Code Review
-
-
-
 
 
 # Software Design and Engineering 
@@ -102,8 +98,8 @@ This paper was the inital plan on describing how I me the ePortfolio requirement
 * Algorithms and Data Structure
 * Databases
 
-### Code Review 
-[![20190606_blog_code_review_limbo-_how_low_should_you_go_website](https://user-images.githubusercontent.com/108440724/184567597-3a907040-afed-4b06-9daa-86b69b80a939.png)]
+# Code Review 
+[![code-review-best-practices](https://user-images.githubusercontent.com/108440724/184568415-de471089-347d-45dc-9156-1296c7470065.png)]
 [Click on the Picture]
 
 
