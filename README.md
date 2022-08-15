@@ -103,6 +103,10 @@ This paper was the inital plan on describing how I me the ePortfolio requirement
 * Databases
 
 ### Code Review 
+[![20190606_blog_code_review_limbo-_how_low_should_you_go_website](https://user-images.githubusercontent.com/108440724/184567597-3a907040-afed-4b06-9daa-86b69b80a939.png)]
+[Click on the Picture](https://github.com/spollard386/CapStone2022/blob/main/Software%20Design%20and%20Engineering.pdf)
+(https://github.com/spollard386/CapStone2022/blob/main/Algorithms%20and%20Data%20Structure.pdf)
+
 
 [Software Design and Engineering.pdf](https://github.com/spollard386/CapStone2022/files/9176679/Software.Design.and.Engineering.pdf)
 
