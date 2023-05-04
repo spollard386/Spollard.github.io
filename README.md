@@ -31,7 +31,7 @@ regardless of the outcome, at least I tried my best and I never gave up that was
 
 
 
-# Software Design and Engineering 
+# DAT 220: Fundamentals of Data Mining 
 [![c___wallpaper_by_alsahm123_de993ov](https://user-images.githubusercontent.com/108440724/184146478-6d61fb0b-aac6-4d18-8c38-7832d30cfd8c.png)](https://github.com/spollard386/CapStone2022/blob/main/eBid_Monthly_Sales%20(1).csv)
 [Click on Picture](https://github.com/spollard386/CapStone2022/blob/main/eBid_Monthly_Sales_Dec_2016%20(1).csv)
 
