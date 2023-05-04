@@ -46,7 +46,7 @@ the Artifact that I chose for this portion is from a previous class CS 260: Data
 
 
 
-# Algorithms and Data Structure
+# CS 250: Software Development Lifecycle
 [![1_9QRFQdpO2f59GsN2KsE9XA](https://user-images.githubusercontent.com/108440724/184226137-2ce89947-4301-4592-84c0-b10364a114c4.png)](https://github.com/spollard386/CapStone2022/blob/main/Scrum%20Agile.pptx)
 [Click on Picture](https://github.com/spollard386/CapStone2022/blob/main/Scrum%20Agile.pptx)
 
@@ -61,7 +61,7 @@ For this portion, I wanted to incorporate a previous class of mine CS250 Softewa
 
 
 
-# Data Base
+# IT 315: Object Oriented Analysis and Design
 [![image-blog-mysql-php](https://user-images.githubusercontent.com/108440724/184149315-03715e17-451b-4c66-892e-81abc5c8864c.jpg)](https://github.com/spollard386/CapStone2022/blob/main/Cluster.docx)
 [Click on Picture](https://github.com/spollard386/CapStone2022/blob/main/DAT%20220%20Denim.docx)
 
