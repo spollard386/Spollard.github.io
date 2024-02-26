@@ -35,6 +35,6 @@ Some of the artifacts will demonstrate my stronger skill in one category but ill
 
 
 <div style="text-align: center;">
-    <a href="https://spollard386.github.io/ePortfolio" title="ePortfolio
+    <a href="https://spollard386.github.io/ePortfolio" title="ePortfolio, title"SNHU
      Home Page"><img src="https://img.shields.io/badge/Home-ePortfolio-blue.svg?style=for-the-badge&logo=homeassistant" /></a>
 </div>
