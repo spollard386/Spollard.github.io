@@ -24,7 +24,7 @@ Some of the artifacts will demonstrate my stronger skill in one category but ill
 
 ---
 ### Self-Reflection
-
+https://username.github.io/folder/1-1 Journal Self:Introduction.pdf
 
 
 
