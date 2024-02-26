@@ -1,8 +1,9 @@
 # ePortfolio
 
-# CS499 Computer Science Capstone    July 2022
+# CS499 Computer Science Capstone   
+
  
- ## WELCOME TO MY PAGE
+ ## Self Assesment
  
  
  
@@ -18,4 +19,9 @@ Some of the artifacts will demonstrate my stronger skill in one category but ill
 </div>
 
 ---
+# 
 
+
+
+## Header 2
+### Header 3
