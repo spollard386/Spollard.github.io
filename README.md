@@ -23,20 +23,26 @@ Some of the artifacts will demonstrate my stronger skill in one category but ill
 </div>
 
 ---
-### Self-Reflection
-<embed src="https://spollard.github.io/1-1 JournalSelf:Introduction.pdf" type="application/pdf" />
+### Software Design & Engineering
+
+C++ Program written in Visual Studio
+to show the enhancement of a 3D object 
 
 
 
+### Algorithm and Data Structure
 
-## Algorithm and Data Structure
+C++ Program developed and written in Visual Studio
+Where a 1D object was enhanced create a 3D object 
+including adding a rotational aspect so that all side 
+of my enhanced object can be seen.
 
 
 
-
-
-### Database
-
+### Databases
+Created using Visual Studio and enhanced with Pycharm 
+and SQlite3. a databese was created with specific tables 
+and imported information though sqlite3.
 
 
 
