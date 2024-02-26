@@ -19,9 +19,22 @@ Some of the artifacts will demonstrate my stronger skill in one category but ill
 </div>
 
 ---
-# 
+# Software Design and Engineering
 
 
 
-## Header 2
-### Header 3
+## Algorithm and Data Structure
+
+
+
+
+
+### Database
+
+
+
+
+<div style="text-align: center;">
+    <a href="https://spollard386.github.io/ePortfolio" title="ePortfolio
+     Home Page"><img src="https://img.shields.io/badge/Home-ePortfolio-blue.svg?style=for-the-badge&logo=homeassistant" /></a>
+</div>
