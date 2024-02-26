@@ -25,8 +25,8 @@ Some of the artifacts will demonstrate my stronger skill in one category but ill
 ---
 ### Self-Reflection
 
-Journal: Self-introduction
-[docs/1-1 Journal Self-Introduction.md]
+[1-1 Journal:Self-introduction](url)
+
 
 
 ## Algorithm and Data Structure
