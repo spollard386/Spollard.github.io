@@ -25,7 +25,7 @@ Some of the artifacts will demonstrate my stronger skill in one category but ill
 ---
 ### Self-Reflection
 
-[1-1 Journal Self-Introduction.pdf](url)
+[embed]http://1-1 Journal Self:Introduction/file.pdf[/embed]
 
 
 
