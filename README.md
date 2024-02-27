@@ -21,6 +21,9 @@ Some of the artifacts will demonstrate my stronger skill in one category but ill
 </div>
 
 ---
+
+![image](https://github.com/spollard386/Spollard.github.io/assets/108440724/0f5bd618-b015-4183-a7b5-bc15a58f6acf)
+
 ### Software Design & Engineering
 
 
@@ -28,6 +31,7 @@ C++ Program written in Visual Studio
 to show the enhancement of a 3D object 
 
 
+![image](https://github.com/spollard386/Spollard.github.io/assets/108440724/6ef18b8a-e6a8-4b8f-9dba-64506b01d6af)
 
 ### Algorithm and Data Structure
 
@@ -38,6 +42,7 @@ including adding a rotational aspect so that all side
 of my enhanced object can be seen.
 
 
+![image](https://github.com/spollard386/Spollard.github.io/assets/108440724/fff4ccb9-c5c8-40e5-83ea-2a7a47731656)
 
 ### Databases 
 
