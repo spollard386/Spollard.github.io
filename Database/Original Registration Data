@@ -1,1 +1,200 @@
 
+#include <iostream>
+#include <vector>
+#include <string>
+
+struct Vehicle {
+    std::string make;
+    std::string model;
+    int year;
+    std::string licensePlate;
+};
+
+struct PublicTransportation {
+    bool needsVouchers;
+};
+
+struct Person {
+    std::string firstName;
+    std::string lastName;
+    bool isOutOfState;
+    std::string homeState; // Only applicable if isOutOfState is true
+    bool hasTranscripts; // Only applicable if isOutOfState is true
+    bool isLocalStudent; // Only applicable if isOutOfState is false
+    std::string school;
+    int age;
+    char sex; // 'M' for Male, 'F' for Female
+    std::string major;
+    bool isFirstYear;
+    std::string firstClassTime; // Only applicable if isFirstYear is true
+    int currentYear; // Only applicable if isFirstYear is false
+    bool isStayingOnCampus;
+    bool needsDormRoom; // Only applicable if isStayingOnCampus is true
+    bool hasTransportation;
+    Vehicle vehicleInfo; // Only applicable if hasTransportation is true
+    PublicTransportation publicTransportInfo; // Only applicable if hasTransportation is false
+};
+
+std::vector<Person> people; // Store information about multiple individuals
+
+void inputData(Person & person) {
+    std::cout << "Welcome to Southern New Hampshire University!\n";
+
+    std::cout << "Enter Student's First Name: ";
+    std::getline(std::cin, person.firstName);
+
+    std::cout << "Enter Student's Last Name: ";
+    std::getline(std::cin, person.lastName);
+
+    std::cout << "Are you an out-of-state student? (1 for Yes, 0 for No): ";
+    std::cin >> person.isOutOfState;
+
+    if (person.isOutOfState) {
+        std::cout << "What is your home state? ";
+        std::cin.ignore(); // Ignore the newline character left in the buffer
+        std::getline(std::cin, person.homeState);
+
+        std::cout << "Do you have your school transcripts? (1 for Yes, 0 for No): ";
+        std::cin >> person.hasTranscripts;
+    }
+    else {
+        std::cout << "Are you a local student? (1 for Yes, 0 for No): ";
+        std::cin >> person.isLocalStudent;
+    }
+
+    std::cout << "Enter School: ";
+    std::cin.ignore(); // Ignore the newline character left in the buffer
+    std::getline(std::cin, person.school);
+
+    std::cout << "Enter Age: ";
+    std::cin >> person.age;
+
+    std::cout << "Enter Sex (M/F): ";
+    std::cin >> person.sex;
+
+    std::cout << "Enter Major: ";
+    std::cin.ignore(); // Ignore the newline character left in the buffer
+    std::getline(std::cin, person.major);
+
+    std::cout << "Are you a first-year student? (1 for Yes, 0 for No): ";
+    std::cin >> person.isFirstYear;
+
+    if (person.isFirstYear) {
+        std::cout << "When is your first class? ";
+        std::cin.ignore(); // Ignore the newline character left in the buffer
+        std::getline(std::cin, person.firstClassTime);
+    }
+    else {
+        std::cout << "What year are you in? ";
+        std::cin >> person.currentYear;
+    }
+
+    std::cout << "Are you staying on campus? (1 for Yes, 0 for No): ";
+    std::cin >> person.isStayingOnCampus;
+
+    if (person.isStayingOnCampus && person.isFirstYear) {
+        std::cout << "Do you need a dorm room? (1 for Yes, 0 for No): ";
+        std::cin >> person.needsDormRoom;
+    }
+
+    std::cout << "Do you have transportation to school? (1 for Yes, 0 for No): ";
+    std::cin >> person.hasTransportation;
+
+    if (person.hasTransportation) {
+        std::cout << "Enter Vehicle Information:\n";
+        std::cout << "Make: ";
+        std::cin >> person.vehicleInfo.make;
+
+        std::cout << "Model: ";
+        std::cin >> person.vehicleInfo.model;
+
+        std::cout << "Year: ";
+        std::cin >> person.vehicleInfo.year;
+
+        std::cout << "License Plate: ";
+        std::cin >> person.vehicleInfo.licensePlate;
+    }
+    else {
+        if (!person.isLocalStudent) {
+            std::cout << "Do you need Public Transportation Information? (1 for Yes, 0 for No): ";
+            std::cin >> person.publicTransportInfo.needsVouchers;
+
+            if (person.publicTransportInfo.needsVouchers) {
+                std::cout << "Does the student need public transportation vouchers?\n";
+            }
+        }
+    }
+}
+
+void displayData(const Person & person) {
+    std::cout << "\nStudent's Name: " << person.firstName << " " << person.lastName
+        << "\nOut-of-State Student: " << (person.isOutOfState ? "Yes" : "No");
+
+    if (person.isOutOfState) {
+        std::cout << "\nHome State: " << person.homeState
+            << "\nHas School Transcripts: " << (person.hasTranscripts ? "Yes" : "No");
+    }
+    else {
+        std::cout << "\nLocal Student: " << (person.isLocalStudent ? "Yes" : "No");
+    }
+
+    std::cout << "\nSchool: " << person.school
+        << "\nAge: " << person.age
+        << "\nSex: " << person.sex
+        << "\nMajor: " << person.major;
+
+    if (person.isFirstYear) {
+        std::cout << "\nFirst Year: Yes"
+            << "\nFirst Class Time: " << person.firstClassTime;
+    }
+    else {
+        std::cout << "\nFirst Year: No"
+            << "\nCurrent Year: " << person.currentYear;
+    }
+
+    std::cout << "\nStaying on Campus: " << (person.isStayingOnCampus ? "Yes" : "No");
+
+    if (person.isStayingOnCampus && person.isFirstYear) {
+        std::cout << "\nNeeds Dorm Room: " << (person.needsDormRoom ? "Yes" : "No");
+    }
+
+    std::cout << "\nHas Transportation: " << (person.hasTransportation ? "Yes" : "No");
+
+    if (person.hasTransportation) {
+        std::cout << "\nVehicle Information:"
+            << "\nMake: " << person.vehicleInfo.make
+            << "\nModel: " << person.vehicleInfo.model
+            << "\nYear: " << person.vehicleInfo.year
+            << "\nLicense Plate: " << person.vehicleInfo.licensePlate;
+    }
+    else if (!person.isLocalStudent) {
+        if (person.publicTransportInfo.needsVouchers) {
+            std::cout << "\nDoes the student need public transportation vouchers? Yes";
+        }
+    }
+
+    std::cout << "\n-----------------------\n";
+}
+
+int main() {
+    char choice;
+    do {
+        Person newPerson;
+        inputData(newPerson);
+        people.push_back(newPerson);
+
+        std::cout << "Do you want to enter another person's information? (y/n): ";
+        std::cin >> choice;
+        std::cin.ignore(); // Ignore the newline character left in the buffer
+
+    } while (choice == 'y' || choice == 'Y');
+
+    // Display all entered data
+    std::cout << "\nEntered Data:\n";
+    for (const auto& person : people) {
+        displayData(person);
+    }
+
+    return 0;
+}
+
