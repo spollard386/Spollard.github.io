@@ -3,22 +3,12 @@
 #include <GLEW/glew.h>        // GLEW library
 #include <GLFW/glfw3.h>     // GLFW library
 
-// GLM Math Header inclusions
-#include <glm/glm.hpp>
-#include <glm/gtx/transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
-
-using namespace std; // Standard namespace
-
-/*Shader program Macro*/
-#ifndef GLSL
-#define GLSL(Version, Source) "#version " #Version " core \n" #Source
-#endif
+using namespace std; // Uses the standard namespace
 
 // Unnamed namespace
 namespace
 {
-    const char* const WINDOW_TITLE = "Basic 1D Shape"; // Macro for window title
+    const char* const WINDOW_TITLE = "Double Triangles"; // Macro for window title
 
     // Variables for window width and height
     const int WINDOW_WIDTH = 800;
@@ -27,9 +17,9 @@ namespace
     // Stores the GL data relative to a given mesh
     struct GLMesh
     {
-        GLuint vao;         // Handle for the vertex array object
-        GLuint vbos[2];     // Handles for the vertex buffer objects
-        GLuint nIndices;    // Number of indices of the mesh
+        GLuint vao;     // Handle for the vertex array object
+        GLuint vbo;     // Handle for the vertex buffer object
+        GLuint nvertices;   // Number of vertices of the mesh
     };
 
     // Main GLFW window
@@ -55,36 +45,29 @@ bool UCreateShaderProgram(const char* vtxShaderSource, const char* fragShaderSou
 void UDestroyShaderProgram(GLuint programId);
 
 
-/* Vertex Shader Source Code*/
-const GLchar* vertexShaderSource = GLSL(440,
-    layout(location = 0) in vec3 position; // Vertex data from Vertex Attrib Pointer 0
-layout(location = 1) in vec4 color;  // Color data from Vertex Attrib Pointer 1
-
-out vec4 vertexColor; // variable to transfer color data to the fragment shader
-
-uniform mat4 shaderTransform; // 4x4 matrix variable for transforming vertex data
-
-void main()
-{
-    gl_Position = shaderTransform * vec4(position, 1.0f); // transforms vertex data using matrix
-    vertexColor = color; // references incoming color data
-}
-);
+// Vertex Shader Program Source Code
+const char* vertexShaderSource = "#version 440 core\n"
+"layout (location = 0) in vec3 aPos;\n"
+"layout (location = 1) in vec4 colorFromVBO;\n"
+"out vec4 colorFromVS;\n"
+"void main()\n"
+"{\n"
+"   gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
+"   colorFromVS = colorFromVBO;\n"
+"}\n\0";
 
 
-/* Fragment Shader Source Code*/
-const GLchar* fragmentShaderSource = GLSL(440,
-    in vec4 vertexColor; // Variable to hold incoming color data from vertex shader
-
-out vec4 fragmentColor;
-
-void main()
-{
-    fragmentColor = vec4(vertexColor);
-}
-);
+// Fragment Shader Program Source Code
+const char* fragmentShaderSource = "#version 440 core\n"
+"in vec4 colorFromVS;\n"
+"out vec4 FragColor;\n"
+"void main()\n"
+"{\n"
+"   FragColor = colorFromVS;\n"
+"}\n\0";
 
 
+// main function. Entry point to the OpenGL program
 int main(int argc, char* argv[])
 {
     if (!UInitialize(argc, argv, &gWindow))
@@ -184,39 +167,23 @@ void UResizeWindow(GLFWwindow* window, int width, int height)
 }
 
 
-// Function called to render a frame
+// Functioned called to render a frame
 void URender()
 {
     // Clear the background
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
 
-    // 1. Scales the shape down by half of its original size in all 3 dimensions
-    glm::mat4 scale = glm::scale(glm::vec3(0.5f, 0.5f, 0.5f));
-
-    // 2. Rotates shape by 45 degrees on the z axis
-    glm::mat4 rotation = glm::rotate(45.0f, glm::vec3(0.0f, 0.0f, 1.0f));
-
-    // 3. Translates by 0.5 in the y axis
-    glm::mat4 translation = glm::translate(glm::vec3(0.0f, 0.5f, 0.0f));
-
-    // Transformations are applied right-to-left order
-    glm::mat4 transformation = translation * rotation * scale;
-
     // Set the shader to be used
     glUseProgram(gProgramId);
-
-    // Sends transform information to the Vertex shader
-    GLuint transformLocation = glGetUniformLocation(gProgramId, "shaderTransform");
-    glUniformMatrix4fv(transformLocation, 1, GL_FALSE, glm::value_ptr(transformation));
 
     // Activate the VBOs contained within the mesh's VAO
     glBindVertexArray(gMesh.vao);
 
     // Draws the triangle
-    glDrawElements(GL_TRIANGLES, gMesh.nIndices, GL_UNSIGNED_SHORT, NULL); // Draws the triangle
+    glDrawArrays(GL_TRIANGLES, 0, gMesh.nvertices); // Draws the triangle
 
-    // Deactivate the Vertex Array Object
+    // Deactivate the VAO
     glBindVertexArray(0);
 
     // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
@@ -227,39 +194,44 @@ void URender()
 // Implements the UCreateMesh function
 void UCreateMesh(GLMesh& mesh)
 {
-    // Specifies normalized device coordinates (x,y,z) and color for square vertices
+    // Specifies Normalized Device Coordinates (x,y,z) and color (r,g,b,a) for triangle vertices
     GLfloat verts[] =
     {
-        // Vertex Positions    // Colors
-         0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f, 1.0f, // Top Right Vertex 0
-         0.5f, -0.5f, 0.0f,   0.0f, 1.0f, 0.0f, 1.0f, // Bottom Right Vertex 1
-        -0.5f, -0.5f, 0.0f,   0.0f, 0.0f, 1.0f, 1.0f, // Bottom Left Vertex 2
-        -0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 1.0f, 1.0f  // Top Left Vertex 3
+        -0.5f, 0.0f, 0.0f,      // top-first_third of the screen
+        1.0f, 0.0f, 0.0f, 1.0f, // red
+
+        -1.0f, -1.0f, 0.0f,     // bottom-left of the screen
+        0.0f, 0.0f, 1.0f, 1.0f, // blue
+
+        0.0f, -1.0f, 0.0f,      // bottom-center of the screen
+        0.0f, 1.0f, 0.0f, 1.0f, // green
+
+        0.5f, 0.0f, 0.0f,       // top-second_third of the screen
+        1.0f, 0.0f, 0.0f, 1.0f, // red
+
+        0.0f, -1.0f, 0.0f,      // bottom-center of the screen
+        0.0f, 0.0f, 1.0f, 1.0f, // blue
+
+        1.0f, -1.0f, 0.0f,      // bottom-right of the screen
+        0.0f, 1.0f, 0.0f, 1.0f  // green
     };
 
-    const GLuint floatsPerVertex = 3;
-    const GLuint floatsPerColor = 4;
+    mesh.nvertices = 6;
 
     glGenVertexArrays(1, &mesh.vao); // we can also generate multiple VAOs or buffers at the same time
+    glGenBuffers(1, &mesh.vbo); // Creates 1 buffer
     glBindVertexArray(mesh.vao);
-
-    // Create 2 buffers: first one for the vertex data; second one for the indices
-    glGenBuffers(2, mesh.vbos);
-    glBindBuffer(GL_ARRAY_BUFFER, mesh.vbos[0]); // Activates the buffer
+    glBindBuffer(GL_ARRAY_BUFFER, mesh.vbo); // Activates the buffer
     glBufferData(GL_ARRAY_BUFFER, sizeof(verts), verts, GL_STATIC_DRAW); // Sends vertex or coordinate data to the GPU
 
-    // Data for the indices
-    GLushort indices[] = { 0, 1, 3,  // Triangle 1
-                         1, 2, 3   // Triangle 2
-    };
-    mesh.nIndices = sizeof(indices) / sizeof(indices[0]);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, mesh.vbos[1]);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+    // Creates the Vertex Attribute Pointer for the screen coordinates
+    const GLuint floatsPerVertex = 3; // Number of coordinates per vertex
+    const GLuint floatsPerColor = 4;  // (r, g, b, a)
 
-    // Strides between vertex coordinates is 6 (x, y, z, r, g, b, a). A tightly packed stride is 0.
+    // Strides between vertex coordinates is 6 (x, y, r, g, b, a). A tightly packed stride is 0.
     GLint stride = sizeof(float) * (floatsPerVertex + floatsPerColor);// The number of floats before each
 
-    // Create Vertex Attribute Pointers
+    // Creates the Vertex Attribute Pointer
     glVertexAttribPointer(0, floatsPerVertex, GL_FLOAT, GL_FALSE, stride, 0);
     glEnableVertexAttribArray(0);
 
@@ -271,7 +243,7 @@ void UCreateMesh(GLMesh& mesh)
 void UDestroyMesh(GLMesh& mesh)
 {
     glDeleteVertexArrays(1, &mesh.vao);
-    glDeleteBuffers(2, mesh.vbos);
+    glDeleteBuffers(1, &mesh.vbo);
 }
 
 
@@ -341,5 +313,4 @@ void UDestroyShaderProgram(GLuint programId)
 {
     glDeleteProgram(programId);
 }
-
 
