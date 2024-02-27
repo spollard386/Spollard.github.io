@@ -22,7 +22,7 @@ Some of the artifacts will demonstrate my stronger skill in one category but ill
 
 ---
 ### Software Design & Engineering
-[https://github.com/spollard386/Spollard.github.io/tree/main/Software%20Design%20and%20Engineering/README.md]
+
 
 C++ Program written in Visual Studio
 to show the enhancement of a 3D object 
@@ -30,7 +30,7 @@ to show the enhancement of a 3D object
 
 
 ### Algorithm and Data Structure
-[https://github.com/spollard386/Spollard.github.io/tree/main/Algorithm%20and%20Data%20Structure]
+
 
 C++ Program developed and written in Visual Studio
 Where a 1D object was enhanced create a 3D object 
