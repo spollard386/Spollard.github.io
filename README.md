@@ -22,7 +22,7 @@ Some of the artifacts will demonstrate my stronger skill in one category but ill
 
 ---
 ### Software Design & Engineering
-[https://github.com/spollard386/Spollard.github.io/tree/322cdb1a12c8b15dd5d3c19412f469204c75cca7/Software%20Design%20and%20Engineering.md]
+(Mark-Link)[https://github.com/spollard386/Spollard.github.io/tree/322cdb1a12c8b15dd5d3c19412f469204c75cca7/Software%20Design%20and%20Engineering.md]
 
 C++ Program written in Visual Studio
 to show the enhancement of a 3D object 
