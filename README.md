@@ -34,7 +34,7 @@ to show the enhancement of a 3D object
 ![image](https://github.com/spollard386/Spollard.github.io/assets/108440724/6ef18b8a-e6a8-4b8f-9dba-64506b01d6af)
 
 ### Algorithm and Data Structure
-https://github.com/spollard386/Spollard.github.io/tree/main/Algorithm%20and%20Data%20Structure
+[Click Link](https://github.com/spollard386/Spollard.github.io/tree/main/Algorithm%20and%20Data%20Structure)
 
 C++ Program developed and written in Visual Studio
 Where a 1D object was enhanced create a 3D object 
@@ -45,7 +45,7 @@ of my enhanced object can be seen.
 ![image](https://github.com/spollard386/Spollard.github.io/assets/108440724/fff4ccb9-c5c8-40e5-83ea-2a7a47731656)
 
 ### Databases 
-<a>https://github.com/spollard386/Spollard.github.io/tree/main/Database</a>
+[Clink Link](<a>https://github.com/spollard386/Spollard.github.io/tree/main/Database</a>)
 
 Created using Visual Studio and enhanced with Pycharm 
 and SQlite3. a databese was created with specific tables 
