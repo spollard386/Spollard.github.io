@@ -11,8 +11,13 @@
  
  
  
- My name is Samantha Pollard I am a current student activley attaining my Bachelor of Science from Southern New Hampshire University currently studying Computer Science. The whole purpose of this ePortfolio is to showcase my abilities and talents, that I have learned while attending SNHU. This however is just a visual tool to demonstrate my skills and value to any potential employer(s). All the content of this portfolio is a starting point to my abilities and skills as well as my growth in key areas surrounding software design / engineering, data structures, databases, and algorithms.
-Some of the artifacts will demonstrate my stronger skill in one category but illustrate other skills across key areas. The artifacts that I have chosen, have been enhanced and presented in the course requirements
+My name is Samantha Pollard, and I find myself currently immersed in the pursuit of knowledge as an active student striving to attain a Bachelor of Science degree in the field of Computer Science at Southern New Hampshire University. My academic journey unfolds within the dynamic realm of computer science, where I am engaged in comprehensive studies encompassing software design, engineering principles, data structures, databases, and the intricacies of algorithms.
+
+This carefully crafted ePortfolio serves a multifaceted purpose, acting as a digital canvas upon which I artfully showcase the mosaic of abilities and talents I have cultivated during my dedicated tenure at SNHU. More than a mere compilation of achievements, this digital repository is a visual tool meticulously designed to transcend the boundaries of academia, offering a vivid demonstration of my skills and inherent value to potential employers in the professional sphere.
+
+Delving into the core of this portfolio, every piece of content therein represents a starting point, not only reflecting my current abilities but also encapsulating the journey of my skill development. As I navigate through key areas such as software design, engineering methodologies, data structures, databases, and algorithms, this collection of artifacts becomes a testament to my growth and proficiency in these critical domains.
+
+Within the diverse array of artifacts curated for this ePortfolio, certain selections shine a spotlight on my heightened proficiency in specific categories, providing a nuanced exploration of my capabilities. However, they simultaneously serve as illustrative examples of my versatility, showcasing competence across various key areas of expertise. Each artifact, meticulously chosen, has undergone enhancement and presentation in alignment with the rigorous course requirements set forth by SNHU, ensuring that it not only meets academic standards but also serves as a comprehensive representation of my readiness for potential employment opportunities.
 
 ---
 
