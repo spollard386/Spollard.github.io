@@ -29,8 +29,7 @@ Within the diverse array of artifacts curated for this ePortfolio, certain selec
 
 [Software Design & Engineering](https://github.com/spollard386/Spollard.github.io/tree/main/Software%20Design%20and%20Engineering)
 
-C++ Program written in Visual Studio
-to show the enhancement of a 3D object 
+This is Texturing a Pyramid module it was created for class CS-330 Computer Graphics and Visualization. the premise of this project was to create a 3D pyramid with added Texture. My enhancement changed the tradional texture and also added a rotating light source circles the 3D pyramid showing the light hitting 3 faces of the pyramid with an amber lighting.
 
 ---
 
@@ -42,9 +41,10 @@ to show the enhancement of a 3D object
 [Algorithm and Data Structure](https://github.com/spollard386/Spollard.github.io/tree/main/Algorithm%20and%20Data%20Structure)
 
 C++ Program developed and written in Visual Studio
-Where a 1D object was enhanced create a 3D object 
-including adding a rotational aspect so that all side 
-of my enhanced object can be seen.
+Where a 1D object was enhanced create a 3D Cube 
+including adding a rotational aspect  to the cube as well as full
+mouse control so that the view is able to pull the cube closer
+and futher should the user choose to. I also added a personal touch just to remind myself why I create this.
 
 ---
 
@@ -56,7 +56,8 @@ of my enhanced object can be seen.
 
 Created using Visual Studio and enhanced with Pycharm 
 and SQlite3. a databese was created with specific tables 
-and imported information though sqlite3.
+and imported information though sqlite3. this project was to show the creation
+of a Student Registration database in SQL while learning PyCharm and well as SQlite3 both whom I've never worked with before, and it turned out better than I had imagined 
 
 
 <div style="text-align: center;">
