@@ -26,19 +26,21 @@ Within the diverse array of artifacts curated for this ePortfolio, certain selec
 </div>
 
 ---
-
+### Software Design & Engineering
 ![image](https://github.com/spollard386/Spollard.github.io/assets/108440724/0f5bd618-b015-4183-a7b5-bc15a58f6acf)
 
-### Software Design & Engineering
+
 [Software Design & Engineering](https://github.com/spollard386/Spollard.github.io/tree/main/Software%20Design%20and%20Engineering)
 
 C++ Program written in Visual Studio
 to show the enhancement of a 3D object 
 
 
-![image](https://github.com/spollard386/Spollard.github.io/assets/108440724/6ef18b8a-e6a8-4b8f-9dba-64506b01d6af)
 
 ### Algorithm and Data Structure
+![image](https://github.com/spollard386/Spollard.github.io/assets/108440724/6ef18b8a-e6a8-4b8f-9dba-64506b01d6af)
+
+
 [Algorithm and Data Structure](https://github.com/spollard386/Spollard.github.io/tree/main/Algorithm%20and%20Data%20Structure)
 
 C++ Program developed and written in Visual Studio
@@ -47,9 +49,10 @@ including adding a rotational aspect so that all side
 of my enhanced object can be seen.
 
 
+### Databases 
 ![image](https://github.com/spollard386/Spollard.github.io/assets/108440724/fff4ccb9-c5c8-40e5-83ea-2a7a47731656)
 
-### Databases 
+ 
 [Databases](https://github.com/spollard386/Spollard.github.io/tree/main/Database)
 
 Created using Visual Studio and enhanced with Pycharm 
