@@ -21,9 +21,6 @@ Within the diverse array of artifacts curated for this ePortfolio, certain selec
 
 ---
 
-<div style="text-align: center;">
-    <a href="https://spollard386.github.io/ePortfolio" title="ePortfolio Home Page"><img src="https://img.shields.io/badge/Home-ePortfolio-blue.svg?style=for-the-badge&logo=homeassistant" /></a>
-</div>
 
 ---
 ### Software Design & Engineering
