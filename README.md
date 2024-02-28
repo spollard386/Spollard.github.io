@@ -22,7 +22,7 @@ Within the diverse array of artifacts curated for this ePortfolio, certain selec
 ---
 
 
----
+
 ### Software Design & Engineering
 ![image](https://github.com/spollard386/Spollard.github.io/assets/108440724/0f5bd618-b015-4183-a7b5-bc15a58f6acf)
 
@@ -32,6 +32,7 @@ Within the diverse array of artifacts curated for this ePortfolio, certain selec
 C++ Program written in Visual Studio
 to show the enhancement of a 3D object 
 
+---
 
 
 ### Algorithm and Data Structure
@@ -45,6 +46,7 @@ Where a 1D object was enhanced create a 3D object
 including adding a rotational aspect so that all side 
 of my enhanced object can be seen.
 
+---
 
 ### Databases 
 ![image](https://github.com/spollard386/Spollard.github.io/assets/108440724/fff4ccb9-c5c8-40e5-83ea-2a7a47731656)
