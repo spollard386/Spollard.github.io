@@ -29,7 +29,7 @@ Within the diverse array of artifacts curated for this ePortfolio, certain selec
 
 [Software Design & Engineering](https://github.com/spollard386/Spollard.github.io/tree/main/Software%20Design%20and%20Engineering)
 
-This is Texturing a Pyramid module it was created for class CS-330 Computer Graphics and Visualization. the premise of this project was to create a 3D pyramid with added Texture. My enhancement changed the tradional texture and also added a rotating light source circles the 3D pyramid showing the light hitting 3 faces of the pyramid with an amber lighting.
+The code was created and designed to model the attributes and behaviors of a pet boarding facility. This encapsulates various properties of pets and provides methods to manipulate and access these properties. It also includes placeholder methods for potential operations related to the pet's stay in the facility. This was created at the end of 2000 I believe. 
 
 ---
 
